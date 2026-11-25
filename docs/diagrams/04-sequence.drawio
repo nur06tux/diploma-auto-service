@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="auto-service-sequence" name="04 Sequence">
+    <mxGraphModel dx="1960" dy="2140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1960" pageHeight="2140" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Sequence: Автосервиске жазылу" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=30;fontStyle=1;fontColor=#173B55;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1880" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Туктибаев Нурсултан | ВТПО-24-1а | 4-жұмыс" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontStyle=0;fontColor=#607687;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="88" width="1880" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="client" value="Клиент" style="shape=umlActor;html=0;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Arial;fontSize=20;strokeColor=#173B55;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="95" y="145" width="50" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-client" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=1.3;endArrow=none;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="260" as="sourcePoint" />
+            <mxPoint x="120" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="header-page" value="" style="rounded=0;fillColor=#DFEEF8;strokeColor=#7D9C8D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="155" width="340" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="page" value=":ServicePage" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontStyle=4;fontColor=#173B55;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="305" y="157" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="role-page" value="Жазылу интерфейсі" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#607687;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="285" y="218" width="370" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-page" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=1.3;endArrow=none;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="260" as="sourcePoint" />
+            <mxPoint x="470" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="header-service" value="" style="rounded=0;fillColor=#DFEEF8;strokeColor=#7D9C8D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="155" width="340" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="service" value=":AppointmentService" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontStyle=4;fontColor=#173B55;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="765" y="157" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="role-service" value="Жазылу ережелері" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#607687;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="745" y="218" width="370" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-service" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=1.3;endArrow=none;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="260" as="sourcePoint" />
+            <mxPoint x="930" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="header-catalog" value="" style="rounded=0;fillColor=#DFEEF8;strokeColor=#7D9C8D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="155" width="340" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="catalog" value=":ServiceCatalog" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontStyle=4;fontColor=#173B55;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="157" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="role-catalog" value="Қызмет ұзақтығы мен бағасы" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#607687;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="218" width="370" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-catalog" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=1.3;endArrow=none;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="260" as="sourcePoint" />
+            <mxPoint x="1350" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="header-repository" value="" style="rounded=0;fillColor=#DFEEF8;strokeColor=#7D9C8D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="155" width="340" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="repository" value=":AppointmentRepository" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontStyle=4;fontColor=#173B55;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1605" y="157" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="role-repository" value="Кесте мен өтінімдерді сақтау" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#607687;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="218" width="370" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-repository" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=1.3;endArrow=none;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="260" as="sourcePoint" />
+            <mxPoint x="1770" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alt-frame" value="" style="rounded=0;fillColor=none;strokeColor=#7D9C8D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1450" width="1880" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="alt-tab" value="" style="rounded=0;fillColor=#DFEEF8;strokeColor=#7D9C8D;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1450" width="70" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="alt-label" value="alt" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=1;fontColor=#173B55;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="42" y="1451" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="guard-success" value="[өтінім сақталды]" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#173B55;align=left;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1470" width="650" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="alt-divider" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=1.3;endArrow=none;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1740" as="sourcePoint" />
+            <mxPoint x="1920" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guard-conflict" value="[уақыт бос емес]" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#173B55;align=left;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1760" width="650" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="atomic-note" value="" style="rounded=0;fillColor=#FFF4D0;strokeColor=#B99E53;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1320" width="700" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="atomic-note-text" value="Бос орынды қайта тексеру және сақтау&#10;бір транзакцияда орындалады." style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1330" width="680" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="call-1" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="320" as="sourcePoint" />
+            <mxPoint x="470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-1-label" value="1: selectService(serviceId)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="284" width="338" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="call-2" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="390" as="sourcePoint" />
+            <mxPoint x="930" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-2-label" value="2: getServiceInfo(serviceId)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="476" y="354" width="448" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="call-3" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="460" as="sourcePoint" />
+            <mxPoint x="1350" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-3-label" value="3: findById(serviceId)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="936" y="424" width="408" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-3" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="530" as="sourcePoint" />
+            <mxPoint x="930" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-3-label" value="3r: duration, price" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="936" y="494" width="408" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-2" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="600" as="sourcePoint" />
+            <mxPoint x="470" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-2-label" value="2r: serviceInfo" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="476" y="564" width="448" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-1" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="670" as="sourcePoint" />
+            <mxPoint x="120" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-1-label" value="1r: duration, price" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="634" width="338" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="call-4" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="760" as="sourcePoint" />
+            <mxPoint x="470" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-4-label" value="4: chooseDay(day, carInfo)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="724" width="338" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="call-5" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="830" as="sourcePoint" />
+            <mxPoint x="930" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-5-label" value="5: findSlots(serviceId, day)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="476" y="794" width="448" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="call-6" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="900" as="sourcePoint" />
+            <mxPoint x="1770" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-6-label" value="6: findSlots(day, duration)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="936" y="864" width="828" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-6" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="970" as="sourcePoint" />
+            <mxPoint x="930" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-6-label" value="6r: slots" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="936" y="934" width="828" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-5" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="1040" as="sourcePoint" />
+            <mxPoint x="470" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-5-label" value="5r: slots" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="476" y="1004" width="448" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-4" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1110" as="sourcePoint" />
+            <mxPoint x="120" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-4-label" value="4r: availableSlots" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1074" width="338" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="call-7" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1210" as="sourcePoint" />
+            <mxPoint x="470" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-7-label" value="7: chooseAndConfirm(slotId)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1174" width="338" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="call-8" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1280" as="sourcePoint" />
+            <mxPoint x="930" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-8-label" value="8: book(customerId, serviceId,&#10;slotId, carInfo)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="476" y="1218" width="448" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="call-9" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="1395" as="sourcePoint" />
+            <mxPoint x="1770" y="1395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-9-label" value="9: createIfAvailable(customerId, serviceId, slotId, carInfo)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="936" y="1359" width="828" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-9-success" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="1560" as="sourcePoint" />
+            <mxPoint x="930" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-9-success-label" value="9r: appointment(id, time)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="936" y="1524" width="828" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-8-success" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="1630" as="sourcePoint" />
+            <mxPoint x="470" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-8-success-label" value="8r: appointment" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="476" y="1594" width="448" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-7-success" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1700" as="sourcePoint" />
+            <mxPoint x="120" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-7-success-label" value="7r: confirmation" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1664" width="338" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-9-conflict" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="1850" as="sourcePoint" />
+            <mxPoint x="930" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-9-conflict-label" value="9r: conflict" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="936" y="1814" width="828" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-8-conflict" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="1920" as="sourcePoint" />
+            <mxPoint x="470" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-8-conflict-label" value="8r: conflict" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="476" y="1884" width="448" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-7-conflict" style="html=0;rounded=0;strokeColor=#173B55;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1990" as="sourcePoint" />
+            <mxPoint x="120" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-7-conflict-label" value="7r: chooseAnotherTime" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=0;fontColor=#173B55;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1954" width="338" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Тұтас көрсеткі - әдіс шақыруы. Пунктир - жауап. r - қайтарылған нәтиже. Уақыт жоғарыдан төмен жүреді." style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#607687;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2080" width="1880" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
